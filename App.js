@@ -22,18 +22,7 @@ export default function App() {
             setText(txt);
           }
         }}
-
       />
-
-      {/* <Button title='Generate QR Code'
-        onPress={txt => {
-          if (text == '') {
-            setText = "Input Value"
-          } else {
-            setText(text)
-          }
-        }}>
-      </Button> */}
       <View >
         <QRCode value={text} size={300} />
       </View>
