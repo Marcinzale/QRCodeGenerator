@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, Text, TextInput, View, Alert } from 'react-native';
+import { StyleSheet, Text, TextInput, View } from 'react-native';
 import React, { useState } from "react";
 
 import QRCode from 'react-native-qrcode-svg';
